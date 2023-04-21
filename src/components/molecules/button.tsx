@@ -27,7 +27,7 @@ const buttonVariants = cva('inline-flex items-center justify-center ', {
     },
     size: {
       default: 'h-10 py-2 px-4',
-      sm: 'h-[48px] w-[123px] px-3 rounded-[12px]',
+      sm: 'h-[48px] lg:w-[123px] px-3 rounded-[12px]',
       lg: 'h-[60px] w-[200px] px-8 text-[24px] rounded-[12px]',
       xl: 'h-[56px] w-[368px]  px-[48px] text-[14px] rounded-[6px]',
     },

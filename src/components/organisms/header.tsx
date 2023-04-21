@@ -89,6 +89,16 @@ function MobileNav() {
                 <li>
                   <Link href="#">Product</Link>
                 </li>
+                <li>
+                  <Link className="mr-6 " href="/login">
+                    Log in
+                  </Link>
+                </li>
+                <li>
+                  <Button className="bg-black text-white" size="sm">
+                    Get Started
+                  </Button>
+                </li>
               </ul>
             </nav>
           </Popover.Panel>
@@ -112,7 +122,7 @@ export const Header = () => {
           </div>
 
           <div className="ml-auto lg:flex h-full hidden text-[16px] items-center">
-            <Link className="mr-6 " href="#">
+            <Link className="mr-6 " href="/login">
               Log in
             </Link>
             <Button className="bg-black text-white" size="sm">
