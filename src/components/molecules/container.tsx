@@ -43,7 +43,7 @@ export const FooterContainer = ({
   return (
     <div
       className={classNames(
-        'mt-32  bottom-10 w-full flex justify-between items-center flex-row',
+        'bottom-10 w-full flex justify-between items-center flex-row',
         className
       )}
     >
